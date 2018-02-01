@@ -1,6 +1,7 @@
 *.iml
 .gradle
 .idea
+.idea/*
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
@@ -8,7 +9,7 @@
 /build
 /captures
 .externalNativeBuild
-!/.gitignore
+/.gitignore
 ### Java template
 # Compiled class file
 *.class
@@ -118,3 +119,4 @@ gradle-app.setting
 out
 gen
 app/libs/
+/.idea/

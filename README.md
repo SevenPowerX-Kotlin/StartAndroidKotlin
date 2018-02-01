@@ -1,6 +1,6 @@
 "# StartAndroidKotlin" 
 
-[Руководство по языку Kotlin](https://kotlinlang.ru/)  
+
 
 
 
@@ -22,9 +22,12 @@ The authenticity of host '[ssh.github.com]:443 ([192.30.253.123]:443)' can't be 
 
 если по 443 всё Ок то сылка должна иметь вид
 
-ssh://git@ssh.github.com:443/yourname/reponame.git git clone ssh://git@ssh.github.com:443/SevenPowerX-PHP/StartPHP.git
+ssh://git@ssh.github.com:443/yourname/reponame.git 
+
+$ git clone ssh://git@ssh.github.com:443/SevenPowerX-Kotlin/StartAndroidKotlin.git
 
 
+Посмотреть адресс удалёного репозитория git config remote.origin.url
 
 Изменить origin адрес репозитория двумя способами:
 
@@ -32,7 +35,7 @@ ssh://git@ssh.github.com:443/yourname/reponame.git git clone ssh://git@ssh.githu
 
 использовать команду git remote set-url origin, например:
 
-git remote set-url origin git@github.com:vicman-wi/wi-backend.git
+git remote set-url origin ssh://git@ssh.github.com:443/SevenPowerX-Kotlin/StartAndroidKotlin.git
 
 2) Второй способ:
 

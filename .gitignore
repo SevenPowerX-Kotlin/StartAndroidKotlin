@@ -1,5 +1,6 @@
 *.iml
 .gradle
+.idea
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
@@ -114,7 +115,6 @@ gradle-app.setting
 ### Example user template
 
 # IntelliJ project files
-.idea
 out
 gen
 app/libs/
